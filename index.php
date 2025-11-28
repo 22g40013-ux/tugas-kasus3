@@ -17,14 +17,16 @@ $page = isset($_GET['page']) ? $_GET['page'] : 'home';
     <title>Situs Kopi Kita</title>
 
     <style>
-        body {
-            font-family: Arial, sans-serif;
-            background: #f3f3f3;
-            margin: 0;
-            padding: 0;
+       body {
+    font-family: 'Playfair Display', serif;
+    background: #f3f3f3;
+    margin: 0;
+    padding: 0;
+        }
+
         }
         header {
-            background: brown;
+            background: black;
             color: white;
             padding: 15px;
             text-align: center;
@@ -46,7 +48,7 @@ $page = isset($_GET['page']) ? $_GET['page'] : 'home';
             padding: 20px;
         }
         .produk {
-            background: white;
+            background: brown;
             padding: 15px;
             margin-bottom: 10px;
             border-radius: 8px;
@@ -98,3 +100,4 @@ $page = isset($_GET['page']) ? $_GET['page'] : 'home';
 
 </body>
 </html>
+
